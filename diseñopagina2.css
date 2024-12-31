@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: 'Georgia', serif;
+    color: #4a4a4a;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    box-sizing: border-box;
+    background-image: url(Imagenes/snopiu.png); /* Ruta de la imagen */
+    background-repeat: repeat; /* Hace que la imagen se repita */
+    background-size: 100px 100px; /* Imagen de fondo de tamaño pequeño */
+    background-position: top left; /* Posición inicial de la imagen */
+}
+
+/* Container for the Dedication */
+.dedicatoria-container {
+    background: #fff;
+    border: 2px solid #f0a3c3;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    padding: 20px; /* Reduce el padding interno */
+    max-width: 600px; /* Reduce el ancho máximo del contenedor */
+    margin: 20px;
+    text-align: justify;
+}
+
+/* Title Styling */
+.dedicatoria-container h1 {
+    text-align: center;
+    font-size: 2em; /* Reduce el tamaño de la fuente del título */
+    color: #e63950;
+    margin-bottom: 15px; /* Reduce el margen inferior */
+    font-weight: bold;
+}
+
+/* Paragraph Styling */
+.dedicatoria-container p {
+    font-size: 1em; /* Reduce el tamaño de la fuente del párrafo */
+    line-height: 1.6; /* Ajusta la altura de línea */
+    color: #555;
+    text-indent: 1.5em; /* Reduce la sangría */
+}
+
+/* Add Decorative Borders */
+.dedicatoria-container::before,
+.dedicatoria-container::after {
+    content: "";
+    display: block;
+    height: 5px;
+    background: linear-gradient(90deg, #f0a3c3, #e63950, #f0a3c3);
+    border-radius: 5px;
+    margin: 10px 0;
+}
+
+/* Button Styling */
+form {
+    text-align: center;
+}
+
+button {
+    background-color: #6200ea; /* Fondo morado */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    cursor: pointer; /* Cursor tipo "mano" */
+    transition: transform 0.2s, background-color 0.2s; /* Efectos de transición */
+}
+
+button:hover {
+    background-color: #3700b3; /* Fondo más oscuro al pasar el mouse */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+button:active {
+    background-color: #5600e8; /* Fondo más oscuro al hacer clic */
+    transform: scale(0.95); /* Reduce ligeramente el tamaño al presionar */
+}

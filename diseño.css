@@ -1,0 +1,110 @@
+/* Estilo general */
+body {
+    font-family: 'Georgia', serif;
+    background-color: #f0e6f6; /* Color de fondo principal */
+    color: #6a4c93; /* Texto en un tono lavanda */
+    margin: 0;
+    padding: 0;
+    line-height: 1.8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh; /* Altura mínima para centrar contenido verticalmente */
+}
+
+/* Contenedor principal */
+.container {
+    background-color: #ffffff; /* Fondo blanco para el margen */
+    border: 10px solid #f7d1e4; /* Color del margen */
+    padding: 20px;
+    max-width: 600px; /* Ancho máximo del contenedor */
+    width: 90%; /* Asegurar que sea responsivo */
+    margin: auto;
+    text-align: justify;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para un efecto 3D suave */
+}
+
+/* Header */
+header {
+    text-align: center; /* Centrar contenido */
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    color: #4b2c5e; /* Color del texto */
+}
+
+header p {
+    font-size: 1.2em;
+    margin: 0 auto;
+    line-height: 1.6;
+    color: #6a4c93;
+}
+
+/* Títulos */
+h2 {
+    color: #8e649b; /* Tono lavanda intenso */
+    border-bottom: 2px solid #f7d1e4;
+    padding-bottom: 5px;
+    margin-top: 40px;
+}
+
+h3, h4 {
+    color: #4b2c5e; /* Tono ciruela */
+    margin-top: 20px;
+}
+
+/* Párrafos */
+p {
+    font-size: 1.1em;
+    margin: 10px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 20px;
+    font-style: italic;
+    color: #4b2c5e;
+}
+
+/* Estilo para las imágenes con márgenes delicados estilo portarretrato */
+img {
+    width: 35%;            /* El tamaño de la imagen será el 35% del ancho de la pantalla */
+    height: auto;          /* La altura se ajusta automáticamente para mantener la relación de aspecto */
+    display: block;        /* Para tratar la imagen como un bloque */
+    margin-left: auto;     /* Alinea la imagen al centro */
+    margin-right: auto;    /* Alinea la imagen al centro */
+    margin-bottom: 20px;   /* Espacio inferior para separar las imágenes */
+    border: 8px solid #f7d1e4; /* Borde rosa pastel alrededor de la imagen */
+    border-radius: 15px;   /* Bordes redondeados para darle un toque suave */
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1); /* Sombra sutil para dar efecto de profundidad */
+    padding: 10px;         /* Espacio entre la imagen y el borde */
+    background-color: #fff; /* Fondo blanco para las imágenes dentro del borde */
+}
+form{
+    text-align: center;
+}
+button {
+    background-color: #6200ea; /* Fondo morado */
+    color: #fff; /* Texto blanco */
+    border: none; /* Sin bordes */
+    border-radius: 8px; /* Bordes redondeados */
+    padding: 10px 20px; /* Espaciado interno */
+    font-size: 16px; /* Tamaño de fuente */
+    font-family: 'Arial', sans-serif; /* Fuente */
+    cursor: pointer; /* Cursor tipo "mano" */
+    transition: transform 0.2s, background-color 0.2s; /* Efectos de transición */
+}
+
+button:hover {
+    background-color: #3700b3; /* Fondo más oscuro al pasar el mouse */
+    transform: scale(1.1); /* Aumenta ligeramente el tamaño */
+}
+
+button:active {
+    background-color: #5600e8; /* Fondo más oscuro al hacer clic */
+    transform: scale(0.95); /* Reduce ligeramente el tamaño al presionar */
+}
